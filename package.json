@@ -1,6 +1,6 @@
 {
   "name": "reselect-map-change-memoize",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A memoize function for reselect-map which will make a callback when a result changes",
   "main": "lib/index.js",
   "jsnext:main": "src/index.js",
@@ -24,6 +24,10 @@
     "logging"
   ],
   "author": "Libor Olsak",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LiborOl/reselect-map-change-memoize"
+  },
   "license": "MIT",
   "dependencies": {
     "reselect": ">=2.5.3",
