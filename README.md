@@ -1,11 +1,7 @@
 Reselect Map Change Memoize
 =======================
 
-
-**This will not work, until 'exposeMemoize' pull request on 'reselect-map' is merged!**
-
-
-A simple memoize function for reselect-map which performs a callback everytime the result changes.
+A simple memoize function for reselect-map which performs a callback every time the result changes.
 This is to reselect-map the same as reselect-change-memoize is for reselect.
 
 This is **alpha** software, use at your own risk.

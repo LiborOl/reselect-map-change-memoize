@@ -1,6 +1,6 @@
 {
   "name": "reselect-map-change-memoize",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A memoize function for reselect-map which will make a callback when a result changes",
   "main": "lib/index.js",
   "jsnext:main": "src/index.js",
@@ -27,7 +27,7 @@
   "license": "MIT",
   "dependencies": {
     "reselect": ">=2.5.3",
-    "reselect-map" : ">=0.0.1",
+    "reselect-map" : ">=0.0.2",
     "reselect-change-memoize" : ">=1.0.2"
   },
   "devDependencies": {
@@ -36,11 +36,10 @@
     "babel-preset-es2015-rollup": "^1.1.1",
     "babel-register": "^6.7.2",
     "expect": "^1.16.0",
-    "cross-env": "^1.0.7",
+    "cross-env": "^2.0.0",
     "immutable": "^3.8.1",
     "mocha": "^2.4.5",
-    "reselect": "^2.5.1",
-    "rollup": "^0.26.1",
+    "rollup": "^0.34.1",
     "rollup-plugin-babel": "^2.4.0"
   }
 }
